@@ -9,7 +9,7 @@ export default function AlertModal({ title, message, onClose }) {
         <p className="mb-6 text-black">{message}</p>
         <button
           onClick={onClose}
-          className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg"
+          className="bg-blue-500 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded-lg"
         >
           Entendido
         </button>
